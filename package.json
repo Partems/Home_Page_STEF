@@ -2,7 +2,11 @@
     "name": "svg_3",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-s7comm": "1.1.6",
+        "node-red-contrib-ui-svg": "2.3.3",
+        "node-red-dashboard": "3.6.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
